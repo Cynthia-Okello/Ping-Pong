@@ -4,7 +4,7 @@ $(document).ready(function() {
       event.preventDefault();
       var number = $("#number").val();
       var result =parseInt(number);
-      Username(result);
+      user(result);
       cynthia.forEach(function(result) {
         $("#outcome").append("<li>" + result + "</li>");
       });
@@ -28,7 +28,7 @@ $(document).ready(function() {
           cynthia.push("pong");
         }
         else {
-          my.push(index);
+          cynthia.push(index);
         }
       }
-        }
+      }
