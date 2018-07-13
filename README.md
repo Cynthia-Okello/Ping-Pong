@@ -14,7 +14,9 @@ Am creating a web application that takes a number from a user and returns a rang
 4) Click on that and copy the link you find there
 5) Use that link to open up  my project.
 ## Technologies used
-1) When it comes to languages i have used a couple of languages the HTML,JavaScript and jquery-3.3.1.js languages
+1) I have used a couple of languages:
+  a)HTML
+  b)JavaSript                   c)jquery
 2) In styling I have employed the styles.css and bootstrap.css
 ## Specs
 1) The program does execution of numbers ranging from 1-100 (example input 1-100..example output 100)
