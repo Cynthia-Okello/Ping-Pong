@@ -1,26 +1,34 @@
+//User Interface
 $(document).ready(function() {
-    $("form#ping-pong").submit(function(event) {
+    $("form").click(function(event) {
       event.preventDefault();
-      var number = parseInt($("input#number").val());
-      var result =(number);
-      $("#result").text(result);
-
-
+      var number = $("#number").val();
+      var result =parseInt(number);
+      Username(result);
+      cynthia.forEach(function(result) {
+        $("#outcome").append("<li>" + result + "</li>");
+      });
     });
-  });
+   });
 
-  var pingPong = function(number) {
-    var arr=[];
-    for(i=1;<=number;i++)
 
-    if(i % 3 === 0) && (i % 5 === 0) {
-      arr.push("PingPong")
-    }; else if (i % 5 === 0) {
-    return ("pong")
-    };else {
-      if (i % 3 === 0) {
-        return "ping"
-    };
-    else {
-      return (i)
-    };
+//Business Interface
+   var cynthia=[];
+    function user(result) {
+      for(index=1;index<=result;index++){
+
+
+        if (index % 15 === 0){
+          cynthia.push("pingpong");
+        }
+        else if (index % 3 === 0) {
+          cynthia.push("ping");
+        }
+        else if (index % 5 === 0) {
+          cynthia.push("pong");
+        }
+        else {
+          my.push(index);
+        }
+      }
+        }
