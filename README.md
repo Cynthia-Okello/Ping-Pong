@@ -21,7 +21,7 @@ Am creating a web application that takes a number from a user and returns a rang
 2) A number is ping if it is divisible by 3
 3) A number is pong if it is divisible by 5
 4) A number is ping-pong if it is divisible by both 3 and 5
-5) A number is neither ping,pong or ping-pong if it is neither divisible by 3,5 or both
+5) A number is neither null if it is neither divisible by 3,5 or both
 ## License
 MIT License
 &copy; Copyright 2018 Cynthia Okello
