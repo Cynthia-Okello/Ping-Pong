@@ -15,7 +15,7 @@ function user(result) {
       cynthia.push("pong");
     }
     else {
-      my.push(index);
+      cynthia.push(index);
     }
   }
     }
